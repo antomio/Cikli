@@ -2,10 +2,12 @@
 
 	var array = [];
 	for(var i = 0; i < 100; i++) {
-		array[array.length] = i;
-	}
- console.log(array);
+		array[array.length] = Math.floor((Math.random() * 100) + 1);
+
 	
+	}
+
+console.log(array);
 
 })(jQuery);
 
