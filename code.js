@@ -32,7 +32,7 @@
 		for(var i = 0; i < value; i++){
 			array[array.length] = Math.floor((Math.random() * 100) + 1);
 		}
-		if (!value || !value2) {
+		if (!value) {
 			alert("Tabulā ir 0 elementu!");
 		}
 		else {
